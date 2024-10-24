@@ -184,7 +184,7 @@ section.about-us-card{
 
     img{
         width:25vw;
-        height:25vw;
+        height:auto;
         object-fit: cover;
         float: left;
     }
