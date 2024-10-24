@@ -84,11 +84,11 @@
 
     a{
         border: solid;
+        border-width: 1px;
         padding: .75vw;
         text-decoration: none;
         color: black;
         border-radius: 50px;
-        border-width: 1px;
     }
 
     a:hover{
