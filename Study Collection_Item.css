@@ -77,6 +77,35 @@
 
 }
 
+.metadata-section{
+
+    h2{
+        font-size: 2em;
+        font-weight: 400;
+        float: left;
+    }
+
+    th{
+        padding-bottom: 2vw;
+        font-size: 1em;
+        font-weight: 800;
+        vertical-align: top;
+
+    }
+   td{
+        border-width: 1px;
+        padding-left: 1vw;
+        font-weight: 300;
+        vertical-align: top;
+
+    }
+
+    tr{
+        text-align: left;
+        vertical-align: top;
+    }
+}
+
 .more-info{
     margin-top: 2vw;
     margin-bottom: 2vw;
@@ -84,7 +113,6 @@
 
     a{
         border: solid;
-        border-width: 1px;
         padding: .75vw;
         text-decoration: none;
         color: black;
