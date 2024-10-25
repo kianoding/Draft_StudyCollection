@@ -77,22 +77,21 @@
 
 }
 
-.metadata-section{
 
-    h2{
+.metadata-section h2{
         font-size: 2em;
         font-weight: 400;
         float: left;
     }
 
-    th{
+.metadata-section th{
         padding-bottom: 2vw;
         font-size: 1em;
         font-weight: 800;
         vertical-align: top;
 
     }
-   td{
+.metadata-section td{
         border-width: 1px;
         padding-left: 1vw;
         font-weight: 300;
@@ -100,11 +99,11 @@
 
     }
 
-    .r{
+.r{
         text-align: left;
         vertical-align: top;
     }
-}
+
 
 .more-info{
     margin-top: 2vw;
