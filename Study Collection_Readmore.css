@@ -1,0 +1,539 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2em;
+    font-weight:400;
+    font-style: normal;
+}
+
+body{
+    padding: 0;
+    height: 100%;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.top-banner{
+    p{
+        display: flex;
+        font-family: "Inter", sans-serif;
+        font-size: 1.15em;
+        font-weight: 300;
+        font-style: normal;
+        padding: 1rem;
+        background-color: #ffce2e;
+
+    }
+    span{
+        font-weight:700;
+    }
+  
+}
+
+
+.page-wrapper{
+    height: 20vw;
+    width: 100%;
+    background-color: black;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%),
+    url('https://www.pratt.edu/design/wp-content/uploads/sites/6/2022/10/unnamed-1.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+    header{
+        background-color: white;
+        height: max-content;
+
+        
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+       
+            img{
+                width: 13vw;
+                margin-bottom: 1em;
+            }
+            
+            ul{
+                list-style-type: none;
+                display: flex;
+                margin-left: auto;
+                padding-left: 10vw;
+             
+                li{
+                    padding: 1em;
+                    margin-right: auto;
+
+                    a{
+                        font-weight: 400;
+                        color: black;
+                        text-decoration: none;
+                        border: solid;
+                        padding: .5em;
+                        border-radius: 2em;
+                        border-width: 1px;
+                        transition-duration: 0.1s;
+
+                    }
+
+                    a:hover{
+                        background-color: #ffce2e;
+                    }
+
+                }
+            }
+        
+        }
+
+    }
+
+    .study-collection:hover{
+        font-style: underline;
+    }
+
+/* Section 1*/
+    section.hero{
+
+        padding-top: 1rem;
+        margin-top: 22vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+/* Section 2*/
+
+.page-wrapper2 {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.container2{
+    width:auto;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: center;
+    height: 100%;
+
+}
+
+
+/* about desc */
+
+.page-wrapper3 {
+    height: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 6vw;
+}
+
+.container3{
+    width:auto;
+    padding-left: 350px;
+    padding-right: 350px;
+
+    padding-bottom: 1em;
+    height: 100%;
+    text-align: center;
+
+    h2{
+        width: auto;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5em;
+        font-weight:400;
+        font-style: normal;
+        color: white;
+        letter-spacing: 1px;
+    }
+}
+
+
+
+
+.collection-block{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0.5vw;
+    padding-bottom: 3vw;
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 100%;
+    display: flex;
+    gap:1vw;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    .collection-block-about{
+
+        padding-left: 3em;
+        padding-right: 3em;
+
+        #about-title{
+            text-align: left;
+            margin-bottom: 1em;
+            font-size: 2.25em;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            padding-top: .5em ;
+        }
+
+        .about-desc{
+            line-height: 1.5em;
+            font-size: 20px;
+            font-family: "Inter", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            padding-bottom: .5em;
+        }
+
+
+  
+    }
+
+    .collection-block-image{
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 100%;
+        height: 80%;
+    
+
+        img {
+            width: 100%;
+            height: 75%;
+            object-fit: cover;
+        }
+
+    }
+
+}
+
+.container4{
+    width:auto;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    height: 100%;
+    text-align: center;
+
+    h2{
+        width: auto;
+        padding-top: 2em;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5em;
+        font-weight:400;
+        font-style: normal;
+        color: white;
+        letter-spacing: 1px;
+    }
+}
+
+.table-section{
+    width: 80%;
+    float: center;
+    font-family: "Inter", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight:400;
+    font-style: normal;
+
+    .nation-wide{
+        width: 100%;
+        border: none;  
+    }
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.header-image {
+    width: 100%; 
+    height: 200px;  
+    object-fit: cover;
+    display: block;
+}
+
+
+.header-text {
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-weight:200;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+}
+
+.copyright-section {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.4em;
+    color: #666;
+    background-color: #f8f8f8;  /* Light gray background */
+    border-top: 1px solid #eee;  /* Optional: adds a subtle line above copyright */
+}
+
+.tier1{
+
+    padding: 12px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+.tier2{
+    padding: .5em;
+    margin: 1em;
+    font-family: "Inter", sans-serif;
+    font-size: .75em;
+    text-align: center;
+    font-weight:500;
+    font-style: normal;
+    width: 30%;
+    border-bottom: 1px solid #ddd;
+}
+
+.tier3{
+    padding: .5em;
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: .65em;
+    text-align: center;
+    font-weight:300;
+    font-style: normal;
+    width: fit-content;
+    border: none;
+}
+
+
+/* Section 2*/
+
+.page-wrapper2{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+
+/*section 4*/
+
+.image-table{
+    width:100%;
+    position: relative;
+    transform-origin: center;
+
+    img{
+        width: 300px;
+        height: 300px;
+        object-fit:cover;
+        transform-origin: center;
+    }
+}
+
+
+.support-list {
+    list-style-type: decimal;
+    margin-left: 25px;
+}
+
+/* First level - Main categories */
+.support-list > li {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #333;
+    padding-left: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+/* Second level */
+.support-list > li > ul {
+    list-style-type: disc;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.support-list > li > ul > li {
+    font-size: 0.85em;
+    margin-bottom: 15px;
+    color: #444;
+    font-family: "Inter", sans-serif;
+}
+
+/* Third level */
+.support-list > li > ul > li > ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: "Inter", sans-serif;
+}
+
+.support-list > li > ul > li > ul > li {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #666;
+    line-height: 1.6;
+    font-family: "Inter", sans-serif;
+}
+
+
+.image-table{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height:300px;
+}
+
+/* Section 5*/
+.page-wrapper5 {
+    height: auto;
+    width: 100%;
+    background-color:#ffce2e ;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: flex-start;
+    justify-content:column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-buttons{
+    flex-wrap: wrap;
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        float: left;
+     
+        li{
+            padding: .5em;
+
+            a{
+                font-weight: 300;
+                font-size: .8vw;
+                font-family: "inter",sans-serif;
+                color: black;
+                text-decoration: none;
+                border: solid;
+                border-width: 1px;
+                padding: 3vw;
+                width: 6em;
+                height: 6em;
+                display: flex;
+                border-radius: 50%;
+                transition-duration: 0.1s;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+
+            a:hover{
+                color: rgb(255, 255, 255);
+                background-color: black;
+                border-color: black;
+        }
+    }
+}
+}
+
+
+
+.footer-disclaimer{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    text-align: left;
+    margin-left: auto;
+
+
+    h3{
+
+        font-size: .8vw;
+        font-weight: 500;
+        font-family: "inter",sans-serif;
+        margin-bottom: 1.2em;
+    }
+
+    p{
+        font-size: .8vw;
+        font-weight: 200;
+        font-family: "inter",sans-serif;
+        line-height: 1.5;
+    }
+}
+
+
+.footer-row2{
+    img{
+        width: 15vw;
+        height: 100%;
+        justify-content: last baseline;
+    }
+
+}
+
+.copyright-container {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 1px solid #eee;
+}
+
+copyright-section {
+    padding: 10px 15px;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.copyright {
+    font-weight: 500;
+}
+
+.credit {
+    color: #888;
+}
+
